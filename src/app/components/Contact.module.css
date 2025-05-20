@@ -1,0 +1,37 @@
+.contact {
+  max-width: 900px;
+  margin: 2rem auto 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+.heading {
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+  font-family: inherit;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.iconlink {
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  padding: 0.7rem;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition: border 0.2s, color 0.2s, background 0.2s;
+}
+.iconlink:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--border-color);
+}
+.icon {
+  font-size: 2rem;
+} 

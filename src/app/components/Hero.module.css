@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  margin-bottom: 2rem;
+}
+.window {
+  border: 2px solid var(--border-color);
+  border-radius: 14px;
+  background: var(--bg);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  min-width: 320px;
+  max-width: 600px;
+  padding: 2rem 2.5rem;
+}
+.titlebar {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  color: var(--accent);
+  font-family: inherit;
+}
+.content h1 {
+  font-size: 2.2rem;
+  margin: 0 0 0.5rem 0;
+}
+.accent {
+  color: var(--accent);
+}
+.content h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  color: var(--border-color);
+}
+.content p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+.blink {
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink {
+  to { opacity: 0; }
+} 
