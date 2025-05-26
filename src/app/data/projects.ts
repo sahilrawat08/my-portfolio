@@ -15,10 +15,10 @@ export const projects = [
     image: '/lbms.jpg',
   },
   {
-    title: 'LeetCode Stats',
-    description: 'A web application to track and display LeetCode statistics',
-    tech: ['React', 'TypeScript', 'Node.js'],
-    link: 'https://github.com/sahilrawat08/leetcode-stats',
-    image: '/leetcode.jpg',
+    title: 'code snippet manager',
+    description: 'A console based code snippet manager in java',
+    tech: ['java'],
+    link: 'https://github.com/sahilrawat08/code-snippet-organizer.git',
+    image: '/csm.jpg',
   }
 ]; 
