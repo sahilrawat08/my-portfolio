@@ -8,6 +8,34 @@ export interface Project {
 
 export const projects = [
   {
+    title: 'CollabBoard',
+    description: 'collaborative drawing board',
+    tech: ['javascript','webRTC','React','Mongobd','Express'],
+    link: 'https://github.com/sahilrawat08/CollabBoard.git',
+    image: '/csm.jpg',
+  },
+  {
+    title: 'resumeAI',
+    description: 'AI based resume tester',
+    tech: ['typecript','React','Mongobd','Express'],
+    link: 'https://github.com/sahilrawat08/resumeAI.git',
+    image: '/csm.jpg',
+  },
+  {
+    title: 'MoodTracker',
+    description: 'context based journal app',
+    tech: ['javascript','React','Mongobd','Express'],
+    link: 'https://github.com/sahilrawat08/context-based-journal.git',
+    image: '/csm.jpg',
+  },
+{
+    title: 'Thinkboard',
+    description: 'a basic note taking app',
+    tech: ['javascript','React','Mongobd','Express'],
+    link: 'https://github.com/sahilrawat08/thinkboard.git',
+    image: '/csm.jpg',
+  },
+  {
     title: 'Library Management System',
     description: 'A library management system using React, Python and Node.js and some hardware components like Arduino and RFID tech',
     tech: ['React', 'Node.js', 'Python'],
